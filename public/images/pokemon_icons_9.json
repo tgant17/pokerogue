@@ -976,6 +976,27 @@
 					}
 				},
 				{
+					"filename": "1026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 32,
+						"h": 24
+					},
+					"frame": {
+						"x": 125,
+						"y": 75,
+						"w": 32,
+						"h": 24
+					}
+				},
+				{
 					"filename": "1025s",
 					"rotated": false,
 					"trimmed": true,

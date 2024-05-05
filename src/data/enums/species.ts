@@ -1024,6 +1024,7 @@ export enum Species {
   IRON_CROWN,
   TERAPAGOS,
   PECHARUNT,
+  FOGGY,
   ALOLA_RATTATA = 2019,
   ALOLA_RATICATE = 2020,
   ALOLA_RAICHU = 2026,
@@ -1092,5 +1093,6 @@ export const defaultStarterSpecies: Species[] = [
   Species.CHESPIN, Species.FENNEKIN, Species.FROAKIE,
   Species.ROWLET, Species.LITTEN, Species.POPPLIO,
   Species.GROOKEY, Species.SCORBUNNY, Species.SOBBLE,
-  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY
+  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY, 
+  Species.FOGGY
 ];

@@ -1083,4 +1083,5 @@ export const pokemon: SimpleTranslationEntries = {
     "paldea_tauros": "Tauros",
     "paldea_wooper": "Wooper",
     "bloodmoon_ursaluna": "Ursaluna",
+    "foggy": "Foggy"
 } as const;

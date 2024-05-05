@@ -815,7 +815,7 @@ export default abstract class Pokemon extends Phaser.GameObjects.Container {
       this.scene.getField(true).map(p => {
         if (p.getAbility().hasAttr(SuppressFieldAbilitiesAbAttr) && p.canApplyAbility())
           p.getAbility().getAttrs(SuppressFieldAbilitiesAbAttr).map(a => a.apply(this, false, suppressed, [ability]));
-        if (p.getPassiveAbility().hasAttr(SuppressFieldAbilitiesAbAttr) && p.canApplyAbility(true))
+        if (p.getPassiveAbility()?.hasAttr(SuppressFieldAbilitiesAbAttr) && p.canApplyAbility(true))
           p.getPassiveAbility().getAttrs(SuppressFieldAbilitiesAbAttr).map(a => a.apply(this, true, suppressed, [ability]));
       });
       if (suppressed.value)

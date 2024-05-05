@@ -7503,6 +7503,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
+    Species.FOGGY
   ],
   [Moves.THUNDER]: [
     Species.RATTATA,
